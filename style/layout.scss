@@ -847,6 +847,13 @@
 		top: 0;
 		@include transform(none);
 	}
+	.resume-item .month {
+		position: relative;
+		left: 0;
+		top: 0;
+		@include transform(none);
+	}
+	
 	.resume-item .name {
 		margin-left: 0;
 	}

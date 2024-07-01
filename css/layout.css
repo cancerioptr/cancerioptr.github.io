@@ -1006,6 +1006,21 @@
 	-o-transform: rotate(90deg);
 }
 
+.resume-item .month {
+	position: absolute;
+	left: 4px;
+	top: -22px;
+	display: inline-block;
+	font-size: 11px;
+	color: #ffffff;
+	font-weight: 600;
+	transform-origin: bottom left;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+
 .resume-item .icon {
 	margin-bottom: 15px;
 	font-size: 32px;
@@ -1027,6 +1042,15 @@
 
 @media (max-width: 720px) {
 	.resume-item .date {
+		position: relative;
+		left: 0;
+		top: 0;
+		transform: none;
+		-webkit-transform: none;
+		-moz-transform: none;
+		-o-transform: none;
+	}
+	.resume-item .month {
 		position: relative;
 		left: 0;
 		top: 0;
